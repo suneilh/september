@@ -1,0 +1,8 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const contactBtn = document.getElementById("contactBtn");
+  if (contactBtn) {
+    contactBtn.addEventListener("click", () => {
+      alert("Thank you for your interest! Please call us at (555) 123-4567 or email contact@greenthumb.com");
+    });
+  }
+});
